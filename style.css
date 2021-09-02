@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: white;
+	font-size: 14px;
+	line-height: 20px;
+    font: Roboto;
+    font-family: sans-serif Roboto;
+}
+.body{
+	width: 800px;
+	margin: 50px auto;
+	padding: 10px;
+    background-color: rgb(246, 246, 252);
+    
+    
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+h3{
+    position: relative;
+    display: inline-block;
+}
+
+h3::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    background-color : #D89616;
+    right:calc(30% - 10%) ;
+    bottom: 0;
+
+    /* border: 4px solid #D89616;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 20%; */
+    
+    
+
+}
+.first-section{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 20%;
+}
+.lorem{
+    width: 50%;
+    padding: 10px;
+    
+}
+.lorem h3{
+   margin-left: 20%;
+   margin-bottom: 20%;
+  
+   
+}
+.lorem p{margin-top: 35px;
+}
+.contact-box{
+    border: 1px solid #ac9494;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 0.5px 0.5px 1.5px rgb(131, 131, 151) ;
+    border-color: rgb(250, 249, 247);
+    background-color: #fff;
+}
+.input, .textarea
+{
+    margin-top: 40px;
+}
+.input, .textarea{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 65px solid black
+}
+.input input{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 65px solid black
+}
+.textarea textarea{width: 100%;
+    height: 85px;
+    padding: 0 10px;
+    border-radius: 65px solid black}
+
+    .btn-submit{
+        margin-top: 80px;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 10px;
+    }
+    .btn-submit button{
+        background: blue;
+        padding: 8px 40px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+    }
+      label{
+        padding-bottom: 30px;
+        
+      }
+      .contact{padding: 0 10px;}
+
+
+
+
+
+
+
+
+
